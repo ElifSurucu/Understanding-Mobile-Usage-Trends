@@ -1,5 +1,7 @@
 # Understanding Mobile Usage Trends
 
+![Digital-Marketing-Data](https://www.wearetg.com/wp-content/uploads/2024/01/Digital-Marketing-Data-Dashboard-1024x640.jpeg)
+
 The dataset for this analysis was sourced from Kaggle: [https://www.kaggle.com/datasets/bhadramohit/smartphone-usage-and-behavioral-dataset/data
 ]
 
