@@ -1,6 +1,6 @@
 # Understanding Mobile Usage Trends
 
-The dataset I used was found on this Kaggle page: [https://www.kaggle.com/datasets/bhadramohit/smartphone-usage-and-behavioral-dataset/data
+The dataset for this analysis was sourced from Kaggle: [https://www.kaggle.com/datasets/bhadramohit/smartphone-usage-and-behavioral-dataset/data
 ]
 
 There are two main notebooks in this project:
