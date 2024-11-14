@@ -5,8 +5,9 @@ The dataset I used was found on this Kaggle page: [https://www.kaggle.com/datase
 
 There are two main notebooks in this project:
 
-Data Analysis Notebook
-Modeling Notebook
+- Data Analysis Notebook
+
+- Modeling Notebook
 
 In the Exploratory Data Analysis (EDA) notebook, I conducted a thorough analysis of the app usage dataset to understand its structure and identify key features that could inform the machine learning process. This step helped uncover patterns and relationships between different features, such as app usage hours, demographics, and time of day, which were crucial for predictive modeling.
 
