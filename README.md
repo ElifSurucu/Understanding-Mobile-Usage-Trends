@@ -9,23 +9,15 @@ There are two main notebooks in this project:
 
 - Modeling Notebook
 
-In the Exploratory Data Analysis (EDA) notebook, I conducted a thorough analysis of the app usage dataset to understand its structure and identify key features that could inform the machine learning process. This step helped uncover patterns and relationships between different features, such as app usage hours, demographics, and time of day, which were crucial for predictive modeling.
-
-For the predictive modeling notebook, I used insights from the EDA to develop and train models that classify the type of app usage (e.g., Productivity, Social Media, Gaming) based on user behavior and demographics. After experimenting with several machine learning models, including Random Forest and XGBoost, I found that the XGBoost model achieved a slightly higher accuracy score of 96% compared to 95% with Random Forest. Given this performance, I proceeded with XGBoost as the final model due to its higher accuracy and robustness in handling complex patterns in the data.
-
-Initially, I considered framing this problem as a regression task, but classification proved more appropriate and feasible given the categorical nature of the target variable. This classification approach ultimately allowed me to gain meaningful insights into user engagement patterns, providing actionable information for optimizing app usage strategies based on user segments.
-
 ## Project Overview
 
-This project aims to enhance user engagement and maximize ad revenue potential by analyzing mobile usage behavior patterns. By examining smartphone usage habits across different demographic groups, we provide strategic insights and recommendations that enable marketing agencies to target their advertisements more effectively.
+This project analyzes smartphone usage behavior across various demographic segments to assist a marketing agency in refining its ad targeting strategies. By understanding user engagement patterns for different app types (Social Media, Gaming, and Productivity), we aim to provide actionable insights to improve user engagement and maximize ad revenue.
 
-Our approach focuses on identifying usage trends and user preferences to optimize ad placement and timing, ensuring that marketing efforts resonate with specific user segments. By tailoring advertising strategies to align with peak usage times, preferred app types, and demographic-specific behaviors, agencies can improve engagement rates and optimize the return on ad spend. Additionally, these insights empower agencies to craft campaigns that not only increase brand visibility but also foster greater user loyalty.
+Key objectives include:
 
-With this project:
-
-- Ad engagement and conversion rates are anticipated to improve,
-- Demographic-based marketing strategies will be optimized,
-- A targeted advertising approach will be established, tailored to user segments and peak engagement times. 
+1. Enhancing ad effectiveness through targeted placements.
+2. Identifying demographic preferences for app usage.
+3. Optimizing ad timing to align with peak usage hours.
 
 ## Descriptive Analysis Questions
 
@@ -42,3 +34,35 @@ With this project:
 3. Does the type of app usage vary from gender, age, and location?
 4. Is there a significant difference in social media usage during different times of day?
 5. Are productivity applications used significantly more during working hours compared to other times of day?
+
+## Summary of Modeling
+
+In the modeling phase, we experimented with Random Forest and XGBoost classifiers to predict users' primary app usage type. Both models provided valuable insights:
+
+- Random Forest achieved 95% accuracy, offering interpretable feature importance, effectively identifying key factors in app usage.
+
+- XGBoost achieved a similar accuracy of 95% but was ultimately chosen as the final model due to its robust handling of complex data patterns, making it an optimal choice for refining ad strategies.
+
+Key Metrics: XGBoost demonstrated high precision, recall, and F1-scores across all classes, supported by a strong ROC curve, indicating balanced and accurate classification.
+
+Conclusion: With its 95% accuracy, XGBoost is a reliable tool for user classification. The model equips the marketing agency with insights for targeted marketing, user segmentation, and engagement strategies, enabling optimal ad placement and a deeper understanding of audience behaviors.
+
+## Business-Oriented Summary: Leveraging Model Predictions for Marketing Strategy
+
+This machine learning model offers a strategic approach for a marketing agency to tailor its advertising by predicting users' primary app usage type. By understanding user behaviors, the agency can make data-driven adjustments that enhance engagement and maximize ad effectiveness.
+
+1. Targeted Content Recommendations:
+
+- Social Media Users: Prioritize social-focused campaigns, leveraging interactive content, influencer partnerships, and trending topics. Ads during peak evening hours can boost engagement.
+- Gaming Users: Focus on game-related ads, in-app purchases, and gamified content, especially during late-night hours when gaming activity peaks.
+- Productivity Users: Serve ads for productivity tools, work-from-home products, or educational content during business hours to align with users’ needs.
+
+2. Optimized Ad Timing:
+
+- Leverage model insights to adjust ad placements based on user behavior. Morning ads can target productivity-focused users, while evening and late-night ads are more effective for social media and gaming audiences.
+
+3. Channel-Specific Strategies:
+
+- Refined ad placements across channels allow social media ads on platforms like Instagram and Facebook, while gaming ads may be directed to in-app notifications in popular gaming apps.
+
+Aligning ad strategies with users’ preferences and peak usage times enhances user experience, engagement, and ad ROI, building stronger brand loyalty through relevant, timely content.
