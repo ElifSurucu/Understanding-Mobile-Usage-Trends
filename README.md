@@ -2,6 +2,7 @@
 
 The dataset I used was found on this Kaggle page: [https://www.kaggle.com/datasets/bhadramohit/smartphone-usage-and-behavioral-dataset/data
 ]
+
 There are two main notebooks in this project:
 
 Data Analysis Notebook
