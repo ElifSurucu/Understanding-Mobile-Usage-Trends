@@ -15,6 +15,8 @@ For the predictive modeling notebook, I used insights from the EDA to develop an
 
 Initially, I considered framing this problem as a regression task, but classification proved more appropriate and feasible given the categorical nature of the target variable. This classification approach ultimately allowed me to gain meaningful insights into user engagement patterns, providing actionable information for optimizing app usage strategies based on user segments.
 
+
+
 This project aims to enhance user engagement and maximize ad revenue potential by analyzing mobile usage behavior patterns. By examining smartphone usage habits across different demographic groups, we provide strategic insights and recommendations that enable marketing agencies to target their advertisements more effectively.
 
 Our approach focuses on identifying usage trends and user preferences to optimize ad placement and timing, ensuring that marketing efforts resonate with specific user segments. By tailoring advertising strategies to align with peak usage times, preferred app types, and demographic-specific behaviors, agencies can improve engagement rates and optimize the return on ad spend. Additionally, these insights empower agencies to craft campaigns that not only increase brand visibility but also foster greater user loyalty.
